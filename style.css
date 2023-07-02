@@ -30,7 +30,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     position: relative;
     line-height: 1.7;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     background-color: var(--template-bg);
 }
 
@@ -45,7 +45,7 @@ ul{
 p{
     margin:0 2rem;
     text-align: justify;
-    font-size: 1.5rem!important;
+    /* font-size: 1.5rem!important; */
     opacity: .9;
     font-weight:400;
 }
@@ -125,4 +125,19 @@ footer{
     width: auto;
     background-color: black;
     color: white;
+}
+#back_top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: .5rem 2rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+#back_top:hover{
+   background-color: white;
+   color: #b694bd;
+   opacity: 0.9;
+   transition: all 3s;
 }
