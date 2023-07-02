@@ -116,3 +116,13 @@ img:hover{
     display: inline-block;
     color: white;
 }
+
+/* #################################################### */
+/* ###       FOOTER   ### */
+
+footer{
+    height: 20rem;
+    width: auto;
+    background-color: black;
+    color: white;
+}

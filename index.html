@@ -67,12 +67,66 @@
                     </ul>
                 </div>
                 <div class="navbar_first_right col-3">
-                    <button class="btn btn-sm"><i style="color: burlywood;" class="fa-solid fa-circle-user"></i></button>
                     <button class="btn btn-sm"><i style="color: burlywood;" class="fa-solid fa-user-secret"></i></button>
+                    <button class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#modalId"><i style="color: burlywood;" class="fa-solid fa-circle-user"></i></button>
                 </div>
             </div>
         </div>
     </nav>
+
+
+<!-- Modal Login -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitleId">Giriş</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+            </div>
+            <!-- important: password,name,user,username bunları değistirin -->
+            <div class="modal-body">
+                <form action="#" method="get" autocomplete="on">
+                    <div class="form-group mb-3"> 
+                        <label for="email_data">Email</label>
+                        <input
+                        type="email"
+                        id="email_data"
+                        name="email_data"
+                        placeholder="Emailinizi yazınız..."
+                        required
+                        autofocus />
+                        <label for="Email not found!" class="text-danger"></label>
+                    
+                    </div>
+                    <div class="form-group mb-3"> 
+                        <label for="password_data">Şifre</label>
+                        <input
+                        type="password"
+                        id="passwd_data"
+                        name="passwd_data"
+                        placeholder="Şirfenizi yazınız..."
+                        required
+                        autofocus />
+                        <label for="Email not found!" class="text-danger"></label>
+                    
+                    </div>
+                    <div class="form-group mb-3">
+                        <button type="reset" class="btn btn-danger">Temizle</button>
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <!-- navbar-first end -->
 
     <!-- navbar-second start -->
@@ -118,25 +172,17 @@
     <main id="main_id">
         <section>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ipsum suscipit esse, impedit fuga fugit unde error quaerat cupiditate illum dolor facere natus recusandae numquam distinctio repudiandae nihil, veniam quae?
-            Vero, deserunt corrupti natus fugit tempore praesentium quisquam incidunt dignissimos consequatur provident, illum laboriosam repellat ipsam ullam eaque omnis quidem consequuntur assumenda cum in. Similique iure officiis ad quisquam quibusdam.
-            Quam veniam odio voluptatum. Minima, ex recusandae, impedit quisquam similique maxime sit necessitatibus praesentium accusantium dignissimos error iure ipsa possimus eum doloremque dolorum eos atque? Aliquam eos quidem cumque facere.
-            Repellat illo laudantium animi non quasi esse nam natus, ea repudiandae alias, cum eum rerum ratione amet ducimus quam, eos harum pariatur commodi quas fugit quos voluptates? Non, facilis tempora!
-            A non laudantium eos corrupti aliquam, ab omnis, alias eum iure facilis error quia earum! Numquam eligendi veritatis aspernatur explicabo est cupiditate iste quis in quos, nisi praesentium modi non?
-            Optio in sapiente eos nostrum totam suscipit, harum nam, nobis beatae distinctio natus odit ut nihil perferendis laudantium explicabo incidunt accusantium facere voluptatum dolorem, ex deleniti quisquam. Ad, sequi? Qui.
-            Ipsum error possimus veritatis dicta incidunt repudiandae, rem doloribus delectus, maxime, doloremque quas officia sequi. Eligendi illum iste non vitae nemo rerum. Aspernatur quae, necessitatibus laboriosam ut vero excepturi error.
-            Debitis quaerat commodi molestiae odit sunt rem, ab veniam nulla, laboriosam nihil delectus illo provident quidem explicabo dolor, cupiditate vero ex expedita sit eius error libero tempore. Maiores, eligendi quam!
-            Repudiandae eligendi, dolores a natus itaque vitae! Atque tenetur dolore totam, magnam assumenda voluptate. Nesciunt, nihil repellendus! Vero, adipisci veritatis. Quisquam quae similique voluptatibus quasi dolores. Quos deleniti dolore similique!
-            Nesciunt unde ipsum et voluptas numquam? Sint quasi iste vitae ipsa optio repudiandae nulla quidem at neque, quae perspiciatis voluptatem? Dolores velit aliquid totam impedit libero facilis earum vel ex?
-            Animi, voluptatibus similique. Aut laudantium nulla iste aperiam? Magni dolorem exercitationem dignissimos rem quia provident ducimus deleniti veniam ut rerum minus, odio minima illum aut tempore officia suscipit quisquam! Repellendus.
-            Nihil, ea nulla pariatur repudiandae incidunt rem qui ipsa consequuntur doloremque repellat, minima natus enim delectus magnam tenetur illum accusantium obcaecati ab assumenda! Nihil aut mollitia dolor nam sint delectus!
-            Error ullam provident possimus assumenda quas quod ex architecto nostrum, cupiditate consectetur molestias delectus ab numquam, est repellat consequuntur tempora mollitia libero ipsum ipsa excepturi? Quasi deleniti nam error minus?
-            Ipsam fuga officiis corrupti aspernatur magnam voluptates fugiat quos animi qui soluta porro deserunt, aut optio nobis saepe? Nihil rem hic saepe laboriosam possimus ipsa officia itaque ut consectetur nobis?
-            Id corrupti sapiente amet laudantium hic dolorum nihil, aliquam aperiam quidem ratione deleniti impedit voluptas inventore alias est nisi aspernatur vero sint consequatur provident aut deserunt maiores. Deserunt, esse blanditiis.
-            Doloribus debitis molestiae cum ad natus soluta unde possimus necessitatibus, voluptatum cumque recusandae, dolorum id beatae eligendi quaerat alias ab numquam! Saepe quas autem placeat, nisi repudiandae earum eos provident?
-            Doloribus eius, rerum, voluptate debitis placeat laboriosam voluptatem cumque asperiores sequi ipsam ullam ut provident rem hic earum perspiciatis unde quas incidunt commodi repudiandae quod quia similique! Sint, impedit totam!
-            Voluptatibus adipisci quos amet magnam. Voluptates, ex! Eveniet tenetur tempora nesciunt cum, atque itaque architecto quibusdam facere ipsam perspiciatis repudiandae quam eligendi rerum quis possimus reiciendis alias deleniti qui. Hic!
-            Omnis ipsam inventore vero quae, nam optio dolore quibusdam doloremque delectus iste rem est repellat eligendi aut enim aperiam qui culpa labore, non illo recusandae similique, ullam doloribus? Dolore, veniam?
-            Accusantium tempora dicta mollitia, suscipit reiciendis illum nam quis aliquid laboriosam ea unde vitae veniam provident nobis. Pariatur quia nisi eligendi itaque aperiam consequuntur, reprehenderit sequi ut veritatis atque accusamus?</p>
+            Vero, deserunt corrupti natus fugit tempore praesentium quisquam incidunt dignissimos consequatur provident, illum laboriosam repellat ipsam ullam eaque omnis quidem consequuntur assumenda cum in. accusamus?</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quae, temporibus repellat blanditiis laborum dolorum nisi magni nemo neque facilis illum eaque numquam nostrum facere debitis ab ut similique eum?
+            Magnam, nemo tempore pariatur corporis aspernatur blanditiis eum praesentium exercitationem assumenda quos alias rerum dolore labore minima autem saepe quae doloribus iusto perferendis ut. Natus distinctio corporis vel voluptatum consectetur.
+            Possimus, eaque fuga sed a velit corporis facere atque voluptatum dolorem ipsum molestiae eius? Fuga expedita iusto sit, eaque asperiores id nisi nobis dolorem, voluptates consequuntur dicta quo, sequi eos.
+            Optio, debitis? Dolor labore repellat laboriosam soluta, eos excepturi veritatis vitae, optio provident distinctio perspiciatis natus alias enim suscipit deleniti odio, obcaecati sint. Mollitia aperiam autem repellendus aliquam! Eum, tempora.
+            Eos quia sapiente nisi, labore tenetur molestiae quos dolorum nam quod cupiditate quae beatae incidunt libero animi aut veritatis, rerum quaerat exercitationem velit tempore excepturi. Consequuntur sed amet placeat dicta?
+            Dolor ad illum, doloremque suscipit omnis perferendis ea minima eum nemo architecto dolores id mollitia quisquam corrupti provident sunt esse rerum natus nesciunt commodi ipsum! Molestiae cupiditate ipsam officia ad.
+            Voluptatem amet unde consequuntur omnis! Temporibus dicta optio aperiam mollitia harum magnam laboriosam, ipsam molestiae officia error praesentium quasi numquam consequuntur aliquam sapiente veritatis, unde exercitationem odio? Harum, eum voluptas.
+            Ex molestiae recusandae rem ut debitis doloribus temporibus nobis adipisci, quia soluta. Ducimus sit eveniet nesciunt eius voluptas, laborum, quo aliquam beatae repudiandae perspiciatis blanditiis totam distinctio provident suscipit. Ipsum.
+            Iusto id esse quidem quod! Delectus error magnam excepturi nulla culpa sequi modi ipsum voluptatem odit, illo, quisquam quod pariatur quas fugiat ad similique perspiciatis dicta eos deserunt hic. Dolor?
+            Accusamus libero hic vero explicabo rem, ipsum ducimus odit aperiam sit voluptate ut facere, ex tempore aliquid amet. Hic numquam obcaecati maiores, repudiandae nulla reprehenderit architecto. Ipsam ratione sint neque!
             <!-- <p class="line-clamp4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quasi commodi libero tempore voluptas consequatur voluptatum, saepe quos in aut quibusdam rerum laboriosam nulla nihil facere ipsum quod architecto fugit.
             Adipisci dolores inventore minima ad, asperiores, quasi exercitationem quos sit blanditiis quaerat animi. Reprehenderit consequuntur ipsum nihil odio reiciendis numquam maiores maxime dignissimos cupiditate. Recusandae maxime temporibus tenetur asperiores ex.
             Commodi, velit aliquam! Maxime eligendi quia incidunt nulla laudantium saepe atque doloribus? Atque recusandae harum eum vel quos tempore quae libero qui cupiditate quidem reprehenderit, delectus inventore aliquid est laborum.</p>
@@ -158,7 +204,35 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer id="footer_id"></footer>
+    <footer id="footer_id">
+        <section id="footer_contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <h3>Contact</h3>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <h3>Company INC</h3>
+                        <p class="line-clamp6">Company Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero ipsum eaque dolorem rerum quod, dolor ea laboriosam quibusdam laborum laudantium hic, quae atque beatae? Molestiae adipisci quisquam illo omnis!
+                        Aut sit non vitae laboriosam. Iure tempore excepturi provident eveniet ea explicabo, libero doloribus vitae temporibus distinctio nesciunt rerum omnis quos optio, reprehenderit atque illo rem fugit maiores? Nesciunt, quod.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h3>Email</h3>
+                        <form action="">
+                            <input type="text" class="form-control" placeholder="Konu">
+                            <input type="text" class="form-control" placeholder="Mail">
+                            <textarea name="" cols="12" rows="2"></textarea>
+                            <button class="btn btn-primary">Email Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-center bg-dark text-white" id="footer-copy_right">
+            &copy; Bütün Haklar Saklıdır. <a href="#">Desing and codes by Merve Dur</a>
+        </section>
+    </footer>
     <!-- footer end -->
 
     <!-- ends codes -->
