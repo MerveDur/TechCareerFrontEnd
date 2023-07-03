@@ -1,6 +1,6 @@
-    # Full Stack Project
+# Full Stack Project
 
-    ```sh
-    https://github.com/MerveDur/TechCareerFrontEnd
-    
-    ```
+```sh
+https://github.com/MerveDur/TechCareerFrontEnd
+
+```
